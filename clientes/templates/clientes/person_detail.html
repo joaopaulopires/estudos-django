@@ -1,0 +1,11 @@
+
+<h1>Detail View</h1>
+<p>Nome = {{ object.first_name }}</p>
+<p>Idade = {{ object.age }}</p>
+<p>Salário = {{ object.salary }}</p>
+
+{{ now|date }}
+<br>
+<a href="{% url 'person_list_cbv' %}">Voltar</a>
+<a href="{% url 'person_update_cbv' object.id %}">Editar</a>
+<a href="{% url 'person_delete_cbv' object.id %}">Deletar</a>
