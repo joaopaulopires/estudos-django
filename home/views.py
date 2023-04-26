@@ -36,6 +36,9 @@ class MyView(View):
     def get(self, request, *args, **kwargs):
         return render(request, "home3.html")
     
+#Class Based View
+
+    
 
     def post(self, request, *args, **kwargs):
         return HttpResponse("home2.html") 

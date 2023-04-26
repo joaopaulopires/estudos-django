@@ -83,3 +83,6 @@ class PersonDelete(DeleteView):
     model = Person
     success_url = reverse_lazy('person_list_cbv')
     
+
+
+#Class Based View

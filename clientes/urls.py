@@ -17,3 +17,5 @@ urlpatterns = [
     path('person_update/<int:pk>/', PersonUpdate.as_view(), name="person_update_cbv"),
     path('person_delete/<int:pk>/', PersonDelete.as_view(), name='person_delete_cbv')
 ]
+
+#Class Based View

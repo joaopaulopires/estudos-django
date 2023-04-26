@@ -20,3 +20,6 @@
 # ATENCAO usar o reverse_lazy() para indicar o link interno
 
 #DeleteView https://docs.djangoproject.com/en/4.2/ref/class-based-views/generic-editing/#deleteview
+
+#Class Based View
+

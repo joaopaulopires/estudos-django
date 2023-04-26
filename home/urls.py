@@ -11,3 +11,4 @@ urlpatterns = [
     path('view/', MyView.as_view())
 ]
 
+#Class Based View
